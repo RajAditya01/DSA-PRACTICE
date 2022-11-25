@@ -64,6 +64,7 @@ int main(){
     display(head);
 
     insertAtHead(head,9);
+    display(head);
     
     
     return 0;
