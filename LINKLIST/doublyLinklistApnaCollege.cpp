@@ -50,7 +50,7 @@ void display(node* head){
         cout<<temp->data<<" ";
         temp=temp->next;
     }
-    cout<<endl;
+    cout<<"-"<<endl;
 }
 int main(){
 
