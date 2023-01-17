@@ -15,7 +15,7 @@ int main(){
     r.breadth=20;
 
     //cout<<"Area of rectangle="+r.length*r.breadth<<endl;
-    printf("Area of rectangle="+r.length*r.breadth);
+    printf("%d""Area of rectangle="+r.length*r.breadth);
     
     
     return 0;
