@@ -18,7 +18,8 @@ int binarySearch(int arr[], int size, int key) {
         if(key > arr[mid]) {
             start = mid + 1;
         }
-        else{ //key < arr[mid]
+        else{
+            //key < arr[mid]
             end = mid - 1;
         }
 
