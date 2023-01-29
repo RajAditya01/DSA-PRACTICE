@@ -1,18 +1,15 @@
 #include <iostream>
+#include <algorithm>
+
 using namespace std;
 
-int main(){
-    char s[] = {'A', 'D', 'I', 'T','Y','A'};
-
-    int start = 0;
-    int end = sizeof(s) / sizeof(s[0]) - 1;
-    cout << end;
-
-    while(start < end){
-        swap(s[start], s[end]);
-        start = start + 1;
-        end = end - 1;
+int main()
+{
+    string arr[] = {"Hello", "Aditya", "how", "are", "you"};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    reverse(arr, arr + n);
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
     }
-
     return 0;
 }
