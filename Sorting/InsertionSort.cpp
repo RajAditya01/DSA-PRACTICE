@@ -22,3 +22,7 @@ void insertionSort(int n, vector<int> &arr){
         arr[j+1] = temp;  
     } 
 }
+
+int main(){
+    nsertionSort()
+}
