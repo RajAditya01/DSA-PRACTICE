@@ -23,7 +23,7 @@ void insertionSort(int arr[], int n)
 
 int main()
 {
-    int arr[] = { 1, 2, 3, 4, 5 };
+    int arr[] = { 1, 2, 3, 4, 5 , 6 , 7 };
     int n = sizeof(arr) / sizeof(arr[0]);
 
     insertionSort(arr, n);
