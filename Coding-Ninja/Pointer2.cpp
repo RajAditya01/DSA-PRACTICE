@@ -5,6 +5,8 @@ int main()
     int i=10;
     int *p =&i;
 
+    int *q=p;
+
     cout<<sizeof(p) <<endl;
     cout<<i<<endl;
     cout<<*p<<endl;
@@ -27,5 +29,6 @@ int main()
     cout<< i <<endl;
     cout << *p <<endl;
 
-    (*p)++;  
+    (*p)++;
+      
 }
