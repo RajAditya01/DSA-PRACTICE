@@ -30,10 +30,18 @@ int main(){
     // cout << (*ptr)++ <<" ";
     // cout << a << endl;
 
-    int *ptr = 0;
-    int a = 10;
-    *ptr = a;
-    cout << *ptr << endl;
+    // int *ptr = 0;
+    // int a = 10;
+    // *ptr = a;
+    // cout << *ptr << endl;
+
+    int a = 7;
+    int b = 17;
+    int *c = &b; 
+    a = *c;
+    *c = *c + 1;
+    cout  << a << "  " << b << endl;
+
 
 }
 
