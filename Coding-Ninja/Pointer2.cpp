@@ -27,8 +27,5 @@ int main()
     cout<< i <<endl;
     cout << *p <<endl;
 
-    (*p)++;
-
-
-  
+    (*p)++;  
 }
