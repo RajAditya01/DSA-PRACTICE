@@ -12,11 +12,18 @@ int main(){
     // cout<<p<<endl;
     // cout<<q;
 
-    int a = 7;
-    int b = 17;
-    int *c = &b;
-    *c = 7;
-    cout  << a << " " << b << endl;
+    // int a = 7;
+    // int b = 17;
+    // int *c = &b;
+    // *c = 7;
+    // cout  << a << " " << b << endl;
+
+    int a = 50;
+    int *ptr = &a;
+    int *q = ptr;
+    (*q)++;
+    cout << a  << endl;
+
 
 
 }
