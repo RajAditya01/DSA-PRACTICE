@@ -35,13 +35,19 @@ int main(){
     // *ptr = a;
     // cout << *ptr << endl;
 
-    int a = 7;
-    int b = 17;
-    int *c = &b; 
-    a = *c;
-    *c = *c + 1;
-    cout  << a << "  " << b << endl;
+    // int a = 7;
+    // int b = 17;
+    // int *c = &b; 
+    // a = *c;
+    // *c = *c + 1;
+    // cout  << a << "  " << b << endl;
 
-
+    /*What will be the output ?*/
+    float f = 10.5;
+    float p = 2.5;
+    float* ptr = &f;
+    (*ptr)++;
+    *ptr = p;
+    cout << *ptr << " " << f << " " << p;
 }
 
