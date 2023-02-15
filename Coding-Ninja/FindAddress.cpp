@@ -18,13 +18,16 @@ int main(){
     // *c = 7;
     // cout  << a << " " << b << endl;
 
+    // int a = 50;
+    // int *ptr = &a;
+    // int *q = ptr;
+    // (*q)++;
+    // cout << a  << endl;
+
+
     int a = 50;
     int *ptr = &a;
-    int *q = ptr;
-    (*q)++;
-    cout << a  << endl;
-
-
-
+    cout << (*ptr)++ <<" ";
+    cout << a << endl;
 }
 
