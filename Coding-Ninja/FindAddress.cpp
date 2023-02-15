@@ -25,9 +25,15 @@ int main(){
     // cout << a  << endl;
 
 
-    int a = 50;
-    int *ptr = &a;
-    cout << (*ptr)++ <<" ";
-    cout << a << endl;
+    // int a = 50;
+    // int *ptr = &a;
+    // cout << (*ptr)++ <<" ";
+    // cout << a << endl;
+
+    int *ptr = 0;
+    int a = 10;
+    *ptr = a;
+    cout << *ptr << endl;
+
 }
 
